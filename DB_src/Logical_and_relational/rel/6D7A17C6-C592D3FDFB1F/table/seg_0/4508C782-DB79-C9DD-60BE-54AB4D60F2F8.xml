@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4508C782-DB79-C9DD-60BE-54AB4D60F2F8" name="rooms">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>ACA31492-B37F-EF90-A2C9-AB6BC428CF1D</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="room_id" id="634FDC1E-CEEE-1751-6A29-769C7124720E">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>E5E649CD-9A30-E992-C5EE-444CDA5C0DC9</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_num" id="5BA48E31-8814-BB66-C530-080FABF9DA25">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>D692A5C3-8868-C49B-C154-765A4A85E1E9</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="6F27CAB8-4410-E288-01DD-601D30777574">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>EE60947C-E7E0-57AA-9C23-C86D4553172A</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="combined"/>
+<valueDef value="F" description="female"/>
+<valueDef value="M" description="male"/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_count" id="8DD58876-44D8-A63E-5CA4-C5F9301FB3E5">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>9342A016-29CB-9D10-CA6C-1C18AA6555AB</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_count" id="264C06ED-15C9-487D-D43B-9881F57357EA">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>F9253FA9-2BA5-2248-5CEF-E509CA8A6753</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dorm_id" id="0479CC75-D81E-6CAE-DAF8-E3C8A4B0C4BB">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>980830BF-278D-423C-F679-0C0925E7FF63</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89CE1375-5D1B-2232-6EA3-9D5E0BE0B682" referredColumn="4607C2D4-682D-8A86-30A5-0695C959E0CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F15DEA2-C5AD-22AA-D25A-4C6A4C41C98E" name="rooms_PK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>9F1D8B4A-60E3-18F4-5B7A-6C4AC2566623</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="634FDC1E-CEEE-1751-6A29-769C7124720E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="400E706D-6957-F9E8-1078-179C472710C2" name="rooms_dorms_FK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>B9832D36-A13B-46D8-88AC-DF4FB22FC851</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0479CC75-D81E-6CAE-DAF8-E3C8A4B0C4BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

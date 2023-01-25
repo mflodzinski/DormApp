@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECF6F481-0900-F53E-C27C-5C592D2FF9BD" name="addresses">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>98B725E6-90AA-CD3A-7BC1-62299E69A11D</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="AC4451B3-2FE6-D16B-AB7E-FE702CD0D46D">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>B7AE6A22-DAC0-44F2-FBF9-51C35CFB702D</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="0D219AE1-3D7D-338B-CCD6-69523515970B">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>0C58FF08-F7AD-3ED4-BD8E-07268ACFF53F</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="D2825EE7-BA4A-0EB4-EE58-6A7F319634E0">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>918364BB-52BC-C6A8-F166-53990ECE4D0C</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_name" id="6B0F9369-A180-0E30-DE4E-13C8CF0DEE15">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>3C6507CC-2F57-A104-3337-C201956281C1</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="building_number" id="1B9540F5-8F7C-31BD-1F35-C1E67F089295">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>75F59E79-6192-B89D-9945-55B723ABD1F3</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local_number" id="447C7E71-E20E-B9DE-A5B1-C3637BB4E542">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>29A082CF-182E-2349-C24F-B1614A5F940F</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="332E6DDB-7780-09D8-CF26-90A28C7F38BB" name="addresses_PK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>44E0A9C4-F2D1-B37F-CBDB-0CB5F10E4CB7</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC4451B3-2FE6-D16B-AB7E-FE702CD0D46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

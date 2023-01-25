@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F203E1BC-6DB7-2C66-BA87-3D01B488E3EF" name="student">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-24 21:57:20 UTC</createdTime>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>students</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="index_number" id="23AA56EC-B748-9AD1-3F3D-3F7BBFA90E45">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-24 21:58:02 UTC</createdTime>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="1EBB177D-BA80-DF85-8640-2CEAB6E04B0B">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-24 22:00:36 UTC</createdTime>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="surname" id="587C1B98-0A58-E432-5CF7-0776E6FE044A">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-24 22:01:54 UTC</createdTime>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="AF0ED735-1C77-1C40-3F22-772188112824">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 18:35:50 UTC</createdTime>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="female"/>
+<valueDef value="M" description="male"/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="room_id" id="54DF29B6-7C97-44CE-3B44-5EA555D838A5">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:38:11 UTC</createdTime>
+<generatorID>A6947BB9-F47B-5318-0F6C-A7FC1EEFA97E</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<referedAttribute>E5E649CD-9A30-E992-C5EE-444CDA5C0DC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="618AD4BD-2545-8FD8-0BBA-54714B8A910F" name="student PK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-24 22:00:11 UTC</createdTime>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23AA56EC-B748-9AD1-3F3D-3F7BBFA90E45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

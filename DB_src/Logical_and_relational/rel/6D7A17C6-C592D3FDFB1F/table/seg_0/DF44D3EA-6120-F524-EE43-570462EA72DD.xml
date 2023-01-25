@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF44D3EA-6120-F524-EE43-570462EA72DD" name="furniture">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>029EDC71-C906-09FE-983E-C6C7F9DAF872</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="furniture_id" id="97F2C707-9344-8D73-8BF3-8643A6E745E3">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>A507B1AD-E87C-335D-FE8F-09F2E38E6DEE</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A59AA64C-693E-A656-A4AD-2A59D738DD73">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>B6B65D73-2F08-5A27-DE72-4EE63471AEBE</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="condition" id="EC21175C-0C61-35E7-44BE-11AA1286CA92">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>670F1EE9-339E-E70D-C0D8-55D380B812E8</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_id" id="089FC0DB-237B-3F3C-B72B-C685100E2607">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>D6AAE99B-B89D-D992-D757-03D64C0537E6</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DA72E73-B51F-B74E-5732-A6B9AEBE5AF0" referredColumn="634FDC1E-CEEE-1751-6A29-769C7124720E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D13B240-760E-3CF2-2CCC-5805E3630D78" name="furniture_PK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>4172CE3D-7D71-CA30-D886-2BA1FEA6C71C</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97F2C707-9344-8D73-8BF3-8643A6E745E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77A23A78-71F9-7B71-64B7-49D967E91F09" name="furniture_rooms_FK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>58F0F571-0FC1-D851-33C8-F6D0662ABB76</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="089FC0DB-237B-3F3C-B72B-C685100E2607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

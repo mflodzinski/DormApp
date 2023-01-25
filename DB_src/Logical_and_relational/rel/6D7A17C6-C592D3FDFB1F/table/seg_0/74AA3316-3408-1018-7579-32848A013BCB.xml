@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74AA3316-3408-1018-7579-32848A013BCB" name="students">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>F203E1BC-6DB7-2C66-BA87-3D01B488E3EF</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="index_number" id="4AE1FF35-A3C5-A68E-1D45-C7440EBB4E77">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>23AA56EC-B748-9AD1-3F3D-3F7BBFA90E45</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="814B4A17-6EE8-B2D5-6AD0-6D2B8CC18C2B">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>1EBB177D-BA80-DF85-8640-2CEAB6E04B0B</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="377E74D1-26C1-DCB8-9E4C-8C45EFE2FFBD">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>587C1B98-0A58-E432-5CF7-0776E6FE044A</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_id" id="0AAD3782-C279-DA9E-F172-18716828327F">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>54DF29B6-7C97-44CE-3B44-5EA555D838A5</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4226A2F-4CBC-9E7D-1C31-296F258CB1FF" referredColumn="634FDC1E-CEEE-1751-6A29-769C7124720E"/>
+</associations>
+</Column>
+<Column name="gender" id="ACE88F25-0840-172F-473D-4B70626F4137">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 18:38:12 UTC</createdTime>
+<generatorID>AF0ED735-1C77-1C40-3F22-772188112824</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="female"/>
+<valueDef value="M" description="male"/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF825F7C-23A8-341A-8AA1-DFE3D433966E" name="students_PK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>618AD4BD-2545-8FD8-0BBA-54714B8A910F</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AE1FF35-A3C5-A68E-1D45-C7440EBB4E77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F637974-E058-1096-718A-9C05BFCDDA3B" name="students_rooms_FK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-25 16:39:17 UTC</createdTime>
+<generatorID>A6947BB9-F47B-5318-0F6C-A7FC1EEFA97E</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AAD3782-C279-DA9E-F172-18716828327F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
