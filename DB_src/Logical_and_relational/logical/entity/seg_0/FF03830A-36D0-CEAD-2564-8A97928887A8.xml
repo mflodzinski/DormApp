@@ -30,6 +30,21 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="index_number" id="3A07BEA6-1AAE-4BCE-B19D-E6B3DB274262">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:16:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[
+]]></commentInRDBMS>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<engineerTo>
+<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="start_date" id="14AD207F-C836-9E89-DC84-AE4122B9530D">
 <createdBy>pawda</createdBy>
 <createdTime>2023-01-25 16:06:41 UTC</createdTime>
@@ -53,21 +68,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="index_number" id="1A4FDD42-361B-F188-8D13-6A41FCF70AD5">
-<createdBy>pawda</createdBy>
-<createdTime>2023-01-25 16:38:22 UTC</createdTime>
-<generatorID>A71B02A9-B5F8-457B-5885-F93D80540D47</generatorID>
-<ownerDesignName>Logical_and_relational</ownerDesignName>
-<engineerTo>
-<item key="6D7A17C6-071C-54CD-BF77-C592D3FDFB1F" value="true"/>
-</engineerTo>
-<referedAttribute>23AA56EC-B748-9AD1-3F3D-3F7BBFA90E45</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

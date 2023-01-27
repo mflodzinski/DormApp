@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C221CBFF-1FF7-10F4-6BBB-ABF07E541CE2" name="students_history">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:17:35 UTC</createdTime>
+<generatorID>FF03830A-36D0-CEAD-2564-8A97928887A8</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_history_id" id="DC039824-FB8E-E1C7-1828-42BBBFB136F0">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:17:35 UTC</createdTime>
+<generatorID>411D5232-BBE3-3B71-E104-B6526894354D</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="index_number" id="D774203B-F10B-EAFA-D4AE-F20A85176299">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:17:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[
+]]></commentInRDBMS>
+<generatorID>3A07BEA6-1AAE-4BCE-B19D-E6B3DB274262</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="3C16EBE9-B3E4-6CFC-4049-86A97DA0CA7F">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:17:35 UTC</createdTime>
+<generatorID>14AD207F-C836-9E89-DC84-AE4122B9530D</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="0303E3BE-1956-F3EE-65DB-3EDA0DCBA8A5">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:17:35 UTC</createdTime>
+<generatorID>C30B5F63-5B6A-487A-83B3-AAC3420D0CBF</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4010A1CF-432F-A6D2-A5B4-2F9B074F9F3B" name="students_history_PK">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-26 00:17:35 UTC</createdTime>
+<generatorID>9A7ECA42-825F-99B5-B497-91DEF1201B5C</generatorID>
+<ownerDesignName>Logical_and_relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC039824-FB8E-E1C7-1828-42BBBFB136F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
