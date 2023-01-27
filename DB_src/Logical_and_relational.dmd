@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Logical_and_relational" id="D0B721F2-F758-EF63-F10A-59169946A32D" version="3.5">
+<createdBy>pawda</createdBy>
+<createdTime>2023-01-24 21:11:02 UTC</createdTime>
+<ownerDesignName>fdhbgdfhgbdgb</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D0B721F2-F758-EF63-F10A-59169946A32D</designId>
+</OSDM_Design>
